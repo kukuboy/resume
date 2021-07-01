@@ -2,97 +2,107 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: 丁
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: 亚辉
+about: 你好，我是一名前端开发。我很喜爱自己的职业，所列项目多为独立负责完成，在工作期间，我构建了专属的
+       活动模板项目，包含活动常用的所有功能。之后保持升级维护，其中包括采用 ts,vue3 的技术升级。希望我
+       们可以很好的合作。详细简历见：http://dingyahui.top/dyh.pdf
+       
+position: 前端开发
 
 birth:
-  year: 1990
-  location: New York
+  year: 1996
+  location: 河南
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: 同花顺
+  position: 前端开发
+  timeperiod: 2019-10至今
+  description: vue移动端项目
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: 宇信科技
+  position: 前端开发
+  timeperiod: 2019,7 - 2019,10
+  description: 公司官网，网站中台
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: 本科
+  timeperiod: 2015,9 - 2019,7
+  description: 郑州大学，计算机科学与技术
+  website: http://www.zzu.edu.cn/
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
 
 # skill level goes from 0 to 100
 skills:
 - name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
   level: 80
-- name: ES.Next
+- name: CSS3
+  level: 80
+- name: JavaScript
+  level: 85
+- name: vue
+  level: 85
+- name: Node.js
+  level: 65
+- name: TypeScript
   level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: webpack
+  level: 65
+- name: 微信小程序
+  level: 60
+- name: java
+  level: 30
+
+knowledge: 
 
 projects:
-- name: best-resume-ever
+- name: 618理财节
+  platform: Vue, ts
+  timeperiod: 2021, 6
+  description: 大富翁主题游戏机制的活动
+- name: 2021开门红活动
   platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+  timeperiod: 2021, 3
+  description: 入金，购买基金不同额度的抽奖
+- name: 双十一集卡活动
+  platform: Vue
+  timeperiod: 2020, 11
+  description:  集卡赢大奖主体的活动
+- name: 在线服务
+  platform: vue, websocket
+  timeperiod: 2020
+  description:  集卡赢大奖主体的活动
+- name: 大学学分项目
+  platform: js,jquery,html,css
+  timeperiod: 2018
+  description: 开发组组长，负责前端部分
+- name: 其他节日活动
+  platform: Vue 
+  timeperiod: 2019 - 2021
+  description: 转盘抽奖，签到，答题，微信登录，客户端登录，客户端分享等
 
 # optional, not all resume templates have hobbies included
 hobbies:
-- name: Video Games
+- name: 电影,动漫,音乐
   iconClass: fa fa-gamepad
-  url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+- name: 球类运动
+  iconClass: fa fa-gamepad
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: 2294211995@qq.com
+  phone: 18860360510
+  # street: 1234 Broadway
+  # city: New York
+  codefights: http://dingyahui.top/dyh.pdf
+  website: http://blog.dingyahui.top
+  github: https://github.com/kukuboy
+
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: cn
 `
